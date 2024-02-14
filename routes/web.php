@@ -19,4 +19,4 @@ use App\Http\Controllers\Guest\PageController as PageController;
     return view('welcome');
 }); */
 
-Route::get('/', [PageController::class, 'movie']);
+Route::get('/', [PageController::class, 'index']);
